@@ -22,51 +22,63 @@
 </table>
 
 <div ID="loginfrm">
-	<iframe width="100%" height="45" frameborder="0" src="http://ccanth.cafe24.com/login.htm" style="border:1px solid #000;">
-		iframe document .0
-	</iframe>
+	<iframe width="100%" height="70" frameborder="0" src="login.html" style="border:1px solid #000;"></iframe>
 </div>
 
 <form name="bbs" method="post" onsubmit="return mymySubmit();" >
-  <input type="hidden" name="p_club_id" value="f2neo" />
-  <!---->
-  <input type="hidden" name="p_bbs_id" value="15356133" />
-  <input type="hidden" name="p_pg_set" value="" />
-  <input type="hidden" name="p_pg_no" value="" />
-  <input type="hidden" name="p_indexStartIDX" value="" />
-  <input type="hidden" name="p_startIDX" value="" />
-  <input type="hidden" name="p_direction" value="" />
-  <input type="hidden" name="p_rowsPerPage" value="" />
-  <input type="hidden" name="p_indexesPerPage" value="" />
-  <input type="hidden" name="p_schfield" value="title" />
-  <input type="hidden" name="p_schword" value="" />
-  <input type="hidden" name="p_srch_indexesPerPage" value="1" />
-  <input type="hidden" name="p_srch_rowsPerPage" value="500" />
-  <input type="hidden" name="p_srch_totalRows" value="501" />
-  <input type="hidden" name="p_srch_direction" value="" />
-  <input type="hidden" name="p_srch_indexStartIDX" value="" />
-  <input type="hidden" name="p_srch_pg_no" value="" />
-  <input type="hidden" name="p_srch_pg_set" value="" />
-  <input type="hidden" name="p_srch_in_rowsPerPage" value="3" />
-  <input type="hidden" name="p_srch_in_indexesPerPage" value="2" />
-  <!----><input type="hidden" name=p_act value="" />
-  <input type="hidden" name=p_bbs_type value="15" />
-  <!--<input type="hidden" name=p_num value="0" />-->
-  <input type="hidden" name=p_pagenum value="1" />
-  <input type="hidden" name="p_imoti_reply_id" value="" />
-  <input type="hidden" name="p_beg_name" value="" />
-  <input type=text name="p_title" value="잘생긴 실러캐늣" style="width:100%;"/><br>
-  <input type="hidden" name="p_title_deco_fg" value="Y" />
-  <input type="hidden" name="p_title_deco_font_color" value="%23000000" />
-  <!--<input type="hidden" name="p_title_deco_font_color" value="%234F7F20" />-->
-  <input type="hidden" name="content" value="" />
-  <input type="hidden" name="p_add_imgfile_list" value="" />
-  <input type="hidden" name="p_del_imgfile_list" value="" />
-  <!----><input type="hidden" name="p_imgfile_path" value="/PDS09/club/web/cindex8/474/f2neo/15355784/443" />
-  <input type="hidden" name="p_search_permit" value="N" />
-  <input type="hidden" name="fileList" value="" />
+  <table width=100% cellpadding=5>
+  <tr>
+    <td width="200" align=center>
+      <input type="hidden" name="p_club_id" value="f2neo" />
+      <!---->
+      <SELECT name="p_bbs_id">
+        <OPTION value="15355784">우리들의 이야기</OPTION>
+        <OPTION value="15356135">노땅만세</OPTION>
+        <OPTION value="15346078">벼룩시장</OPTION>
+        <OPTION value="15356133">네오일기</OPTION>
+      </SELECT>
+      <!-- input type="hidden" name="p_bbs_id" value="15356133" /-->
+    </td>
+    <td>
+      <input type="hidden" name="p_pg_set" value="" />
+      <input type="hidden" name="p_pg_no" value="" />
+      <input type="hidden" name="p_indexStartIDX" value="" />
+      <input type="hidden" name="p_startIDX" value="" />
+      <input type="hidden" name="p_direction" value="" />
+      <input type="hidden" name="p_rowsPerPage" value="" />
+      <input type="hidden" name="p_indexesPerPage" value="" />
+      <input type="hidden" name="p_schfield" value="title" />
+      <input type="hidden" name="p_schword" value="" />
+      <input type="hidden" name="p_srch_indexesPerPage" value="1" />
+      <input type="hidden" name="p_srch_rowsPerPage" value="500" />
+      <input type="hidden" name="p_srch_totalRows" value="501" />
+      <input type="hidden" name="p_srch_direction" value="" />
+      <input type="hidden" name="p_srch_indexStartIDX" value="" />
+      <input type="hidden" name="p_srch_pg_no" value="" />
+      <input type="hidden" name="p_srch_pg_set" value="" />
+      <input type="hidden" name="p_srch_in_rowsPerPage" value="3" />
+      <input type="hidden" name="p_srch_in_indexesPerPage" value="2" />
+      <!----><input type="hidden" name=p_act value="" />
+      <input type="hidden" name=p_bbs_type value="15" />
+      <!--<input type="hidden" name=p_num value="0" />-->
+      <input type="hidden" name=p_pagenum value="1" />
+      <input type="hidden" name="p_imoti_reply_id" value="" />
+      <input type="hidden" name="p_beg_name" value="" />
+      <input type=text name="p_title" value="잘생긴 실러캐늣" style="width:100%;"/><br>
+      <input type="hidden" name="p_title_deco_fg" value="Y" />
+      <input type="hidden" name="p_title_deco_font_color" value="%23000000" />
+      <!--<input type="hidden" name="p_title_deco_font_color" value="%234F7F20" />-->
+      <input type="hidden" name="content" value="" />
+      <input type="hidden" name="p_add_imgfile_list" value="" />
+      <input type="hidden" name="p_del_imgfile_list" value="" />
+      <!----><input type="hidden" name="p_imgfile_path" value="/PDS09/club/web/cindex8/474/f2neo/15355784/443" />
+      <input type="hidden" name="p_search_permit" value="N" />
+      <input type="hidden" name="fileList" value="" />
 
-  <TEXTAREA name="p_subject" cols="40" rows="7" wrap="soft" style="width:100%;"> 내용 </TEXTAREA>
+      <TEXTAREA name="p_subject" cols="40" rows="7" wrap="soft" style="width:100%;"> 내용 </TEXTAREA>
+    </td>
+  </tr>
+  </table>
 </form>
 
 <table border="0" cellpadding="0" cellspacing="0">
