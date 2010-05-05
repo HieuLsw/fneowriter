@@ -6,7 +6,7 @@ function setCookie(name, value, expiredays)
 }
 
 function getCookie(name) 
-{
+{ 
 	var nameOfCookie = name + "=";
 	var x = 0;
 	while (x <= document.cookie.length)

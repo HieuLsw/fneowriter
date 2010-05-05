@@ -1,4 +1,4 @@
-﻿function setCookie(name, value, expiredays) 
+function setCookie(name, value, expiredays) 
 {
 	var todayDate = new Date();
 	todayDate.setDate(todayDate.getDate() + expiredays);
