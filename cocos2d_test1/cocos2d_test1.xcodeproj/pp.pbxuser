@@ -116,21 +116,22 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317865976;
-			PBXWorkspaceStateSaveDate = 317865976;
+			PBXPerProjectTemplateStateSaveDate = 317873475;
+			PBXWorkspaceStateSaveDate = 317873475;
 		};
 		perUserProjectItems = {
-			EE10643412F23FD200878842 /* PBXTextBookmark */ = EE10643412F23FD200878842 /* PBXTextBookmark */;
 			EE1EFD4612F1A6E200E46F7E /* PBXBookmark */ = EE1EFD4612F1A6E200E46F7E /* PBXBookmark */;
 			EE1EFD4712F1A6E200E46F7E /* PBXBookmark */ = EE1EFD4712F1A6E200E46F7E /* PBXBookmark */;
 			EE1EFD4812F1A6E200E46F7E /* PBXBookmark */ = EE1EFD4812F1A6E200E46F7E /* PBXBookmark */;
 			EE1EFD4912F1A6E200E46F7E /* PBXBookmark */ = EE1EFD4912F1A6E200E46F7E /* PBXBookmark */;
 			EE1EFD4A12F1A6E200E46F7E /* PBXBookmark */ = EE1EFD4A12F1A6E200E46F7E /* PBXBookmark */;
 			EE1EFD4B12F1A6E200E46F7E /* PBXBookmark */ = EE1EFD4B12F1A6E200E46F7E /* PBXBookmark */;
+			EE3B914512F25701002014EE /* PBXTextBookmark */ = EE3B914512F25701002014EE /* PBXTextBookmark */;
+			EE3B915C12F25718002014EE /* PlistBookmark */ = EE3B915C12F25718002014EE /* PlistBookmark */;
+			EE3B91AB12F25DA9002014EE /* PlistBookmark */ = EE3B91AB12F25DA9002014EE /* PlistBookmark */;
 			EE52658212F10D3F00A88C16 /* PBXTextBookmark */ = EE52658212F10D3F00A88C16 /* PBXTextBookmark */;
 			EE52658312F10D3F00A88C16 /* PBXTextBookmark */ = EE52658312F10D3F00A88C16 /* PBXTextBookmark */;
 			EE52658412F10D3F00A88C16 /* PBXTextBookmark */ = EE52658412F10D3F00A88C16 /* PBXTextBookmark */;
-			EE90EACD12F2400C0028A5B9 /* PBXTextBookmark */ = EE90EACD12F2400C0028A5B9 /* PBXTextBookmark */;
 			EEABBAAC12F1C1100083FC9D /* PBXBookmark */ = EEABBAAC12F1C1100083FC9D /* PBXBookmark */;
 			EEABBAAD12F1C1100083FC9D /* PBXBookmark */ = EEABBAAD12F1C1100083FC9D /* PBXBookmark */;
 			EEDD98AA12F192600029AC01 /* PBXTextBookmark */ = EEDD98AA12F192600029AC01 /* PBXTextBookmark */;
@@ -185,16 +186,6 @@
 			sepNavVisRange = "{0, 1641}";
 		};
 	};
-	EE10643412F23FD200878842 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 506EDC30102F528A00A389B3 /* HelloWorldScene.m */;
-		name = "HelloWorldScene.m: 60";
-		rLen = 0;
-		rLoc = 1255;
-		rType = 0;
-		vrLen = 2405;
-		vrLoc = 451;
-	};
 	EE1EFD4612F1A6E200E46F7E /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = E02BB501126CA50F006E46A2 /* Icon-Small-50.png */;
@@ -218,6 +209,38 @@
 	EE1EFD4B12F1A6E200E46F7E /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = EE1EFD3F12F1A44E00E46F7E /* enemy.png */;
+	};
+	EE3B914512F25701002014EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldScene.m */;
+		name = "HelloWorldScene.m: 60";
+		rLen = 0;
+		rLoc = 1255;
+		rType = 0;
+		vrLen = 2405;
+		vrLoc = 451;
+	};
+	EE3B915C12F25718002014EE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 50F414EF1069373D002A0D5E /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/pp/Documents/GoogleCodeSVNrepository/cocos2d_test1/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	EE3B91AB12F25DA9002014EE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 50F414EF1069373D002A0D5E /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/pp/Documents/GoogleCodeSVNrepository/cocos2d_test1/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 	EE52655F12F10D0500A88C16 /* cocos2d_test1 */ = {
 		isa = PBXExecutable;
@@ -290,16 +313,6 @@
 		rType = 0;
 		vrLen = 1641;
 		vrLoc = 0;
-	};
-	EE90EACD12F2400C0028A5B9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 506EDC30102F528A00A389B3 /* HelloWorldScene.m */;
-		name = "HelloWorldScene.m: 60";
-		rLen = 0;
-		rLoc = 1255;
-		rType = 0;
-		vrLen = 2405;
-		vrLoc = 451;
 	};
 	EEABBAAC12F1C1100083FC9D /* PBXBookmark */ = {
 		isa = PBXBookmark;
