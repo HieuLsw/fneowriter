@@ -40,20 +40,7 @@ CCSprite *goButton;
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
 		self.isTouchEnabled = YES;
-		/*(
-		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
 
-		// ask director the the window size
-		CGSize size = [[CCDirector sharedDirector] winSize];
-	
-		// position the label on the center of the screen
-		label.position =  ccp( size.width /2 , size.height/2 );
-		
-		// add the label as a child to this Layer
-		[self addChild: label];
-		 */
-		
 		enemy_sprite = [CCSprite spriteWithFile:@"enemy.png"];
 		enemy_sprite.position = ccp(50, 50);
 	
@@ -69,9 +56,13 @@ CCSprite *goButton;
 
 - (void) btnClick
 {
-	// do nothing or something 
+	id buttonPushed = [CCScaleBy actionWithDuration:0.1 scale:0.5];
+  id buttonBack = [buttonPushed reverse];
+  [goButton runAction:[CCSequence	actions:buttonPushed, buttonBack, nil]];
+  
 	id doJump = [CCJumpBy actionWithDuration:0.5 position:ccp(0, 0) height:50.0f jumps:1];
-	[enemy_sprite runAction:doJump];
+	id doEaseJump = [CCEaseInOut actionWithAction:doJump rate:3];
+  [enemy_sprite runAction:doEaseJump];
 }
 
 - (BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
