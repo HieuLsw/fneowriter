@@ -11,8 +11,13 @@
 @interface gbDicViewController : UIViewController {
 
   IBOutlet UITextView *dicResultText;
-  
+  IBOutlet UIActivityIndicatorView *prgView;
+	IBOutlet UITextField *queryWord;
 }
+
+@property (nonatomic, retain) UIActivityIndicatorView *prgView;
+
+- (IBAction)searchTouched : (id)sender;
 
 @end
 
