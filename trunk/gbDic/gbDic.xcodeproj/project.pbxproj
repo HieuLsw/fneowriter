@@ -16,7 +16,6 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* gbDicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* gbDicViewController.m */; };
 		EE1611A612F3C48E0075BC0F /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1611A412F3C48E0075BC0F /* AdViewController.m */; };
-		EE1611AD12F3C4B40075BC0F /* libAdMob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1611AC12F3C4B40075BC0F /* libAdMob.a */; };
 		EE16124012F3C63F0075BC0F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16123F12F3C63F0075BC0F /* AddressBook.framework */; };
 		EE16124212F3C63F0075BC0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16124112F3C63F0075BC0F /* CoreLocation.framework */; };
 		EE16124412F3C63F0075BC0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16124312F3C63F0075BC0F /* QuartzCore.framework */; };
@@ -37,6 +36,7 @@
 		EE3B919512F25798002014EE /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3B918E12F25798002014EE /* SBJsonBase.m */; };
 		EE3B919612F25798002014EE /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3B919012F25798002014EE /* SBJsonParser.m */; };
 		EE3B919712F25798002014EE /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3B919212F25798002014EE /* SBJsonWriter.m */; };
+		EE61C24B12F64A9D00C792A3 /* libAdMob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE61C24A12F64A9D00C792A3 /* libAdMob.a */; };
 		EEA21F2912F2A5D700DE4349 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA21F2812F2A5D700DE4349 /* Default.png */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +60,6 @@
 		EE1611A912F3C4B40075BC0F /* AdMobInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobInterstitialAd.h; sourceTree = "<group>"; };
 		EE1611AA12F3C4B40075BC0F /* AdMobInterstitialDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobInterstitialDelegateProtocol.h; sourceTree = "<group>"; };
 		EE1611AB12F3C4B40075BC0F /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
-		EE1611AC12F3C4B40075BC0F /* libAdMob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMob.a; sourceTree = "<group>"; };
 		EE16123F12F3C63F0075BC0F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		EE16124112F3C63F0075BC0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EE16124312F3C63F0075BC0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -97,6 +96,7 @@
 		EE3B919012F25798002014EE /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		EE3B919112F25798002014EE /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		EE3B919212F25798002014EE /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EE61C24A12F64A9D00C792A3 /* libAdMob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMob.a; sourceTree = "<group>"; };
 		EEA21F2812F2A5D700DE4349 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,12 +108,12 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
-				EE1611AD12F3C4B40075BC0F /* libAdMob.a in Frameworks */,
 				EE16124012F3C63F0075BC0F /* AddressBook.framework in Frameworks */,
 				EE16124212F3C63F0075BC0F /* CoreLocation.framework in Frameworks */,
 				EE16124412F3C63F0075BC0F /* QuartzCore.framework in Frameworks */,
 				EE16127412F3C68A0075BC0F /* MediaPlayer.framework in Frameworks */,
 				EE16127612F3C68A0075BC0F /* MessageUI.framework in Frameworks */,
+				EE61C24B12F64A9D00C792A3 /* libAdMob.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +205,8 @@
 				EE1611A812F3C4B40075BC0F /* AdMobDelegateProtocol.h */,
 				EE1611A912F3C4B40075BC0F /* AdMobInterstitialAd.h */,
 				EE1611AA12F3C4B40075BC0F /* AdMobInterstitialDelegateProtocol.h */,
+				EE61C24A12F64A9D00C792A3 /* libAdMob.a */,
 				EE1611AB12F3C4B40075BC0F /* AdMobView.h */,
-				EE1611AC12F3C4B40075BC0F /* libAdMob.a */,
 			);
 			path = AdMob;
 			sourceTree = "<group>";
